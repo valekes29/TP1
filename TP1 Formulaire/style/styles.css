@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #333333;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,6 +8,9 @@ body {
     align-items: center;
 }
 
+h1{
+    color: white;
+}
 .contact-container {
     display: flex;
     justify-content: center;
@@ -17,8 +20,8 @@ body {
 }
 
 .contact-form {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: white;
+    color: #000000;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -28,13 +31,13 @@ body {
 
 .contact-form h1 {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 
 .contact-form label {
     display: block;
     margin-top: 15px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .contact-form input,
@@ -78,15 +81,18 @@ body {
     width: auto;
 }
 
-.contact-form button {
-    background-color: #007BFF;
+button {
+    background-color: #064282;
     color: white;
     border: none;
+    text-align: center;
+    justify-content: center;
     padding: 10px 20px;
     margin-top: 20px;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%;
+    width: 150px;
+    margin-left: 175px;
 }
 
 .device-info {
