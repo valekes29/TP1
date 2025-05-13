@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire de contact</h1>
+    <div class="contact-form">
+        <form>
+            <label for="pseudo">Votre Pseudo *</label>
+            <input type="text" id="pseudo" placeholder="Votre pseudo">
+
+            <label for="password">Votre Mot de passe *</label>
+            <input type="password" id="password" placeholder="Votre mot de passe">
+
+            <label for="email">Votre e-mail *</label>
+            <input type="email" id="email" placeholder="Votre adresse e-mail">
+
+            <label for="subject">Objet du message *</label>
+            <select id="subject">
+                <option value="question">J'ai une question</option>
+                <option value="other">Autre</option>
+            </select>
+
+            <label for="message">Votre message *</label>
+            <textarea id="message" placeholder="Votre message"></textarea>
+
+        <div class="urgency-level">
+            <label>Niveau d'urgence *</label>
+            <div class="radio-group">
+                <input type="radio" id="urgent" name="urgency" value="urgent">
+                <label for="urgent">Urgent</label>
+
+                <input type="radio" id="normal" name="urgency" value="normal">
+                <label for="normal">Normal</label>
+
+                <input type="radio" id="low" name="urgency" value="low" checked>
+                <label for="low">Lent</label>
+            </div>
+        
+            <div class="privacy-policy">
+                <input type="checkbox" id="privacy" checked>
+                <label for="privacy">J'ai lu et j'accepte la <a href="index.html"> politique de confidentialité</a> du site.</label>
+            </div>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+    
+</body>
+</html>
